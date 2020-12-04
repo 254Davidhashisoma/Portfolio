@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-    background-color: #dd1f1f;
+    background-color:#ffffff; 
     margin: 0px;
     padding: 0px;
 }
@@ -13,15 +13,16 @@ a{
 section{
     width: 100%;
     height: 95vh;
-    background-image:url() ;
-    background-image:url(./Image.jpeg);
+    background-image:url("../img-portfolios/hashi.jpeg") ;
     background-repeat: no-repeat;
     background-size:cover;
+    position: relative;
 }
 nav{
     display: flex;
     justify-content:space-around ;
     align-items: center;
+    height: 60px;
     background-color:#ffffff;
     box-shadow: 2px 2px 12px rgba(0,0,0,0,0.2);
     padding: 0px 5px;
@@ -37,8 +38,104 @@ nav ul li a{
     font-size: 15px;
     font-weight: 700;
 }
+logo{
+    font-family :RoadTest;
+    color: #000000;
+    font-size: 22px;
+}
 .active{  
     font-family: 'Times New Roman', Times, serif1s;
     font-weight: bold;
     color: #2d2a2a;
-}   
+}  
+.text-container p:nth-child(1){
+    font-family: 'Calibri';
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+    font-size: 60px;
+    line-height: 30px;
+
+}
+.text-container P:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p{
+      line-height: 4px;
+      margin: 4px 0px 25px;
+}
+.text-container{
+    position:absolute;
+    left: 12%;
+    top: 42%;
+    transform:translate(-13%,-42%);
+}
+.text-container button{
+    width: 120px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: Calibri;
+    font-weight: bold;
+    outline: none;
+    margin: 0px 10px;
+}
+.btn{
+    border: 2px solid #373636;
+    color: #373637;
+    
+}
+.down-cv{
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+button:active{
+    transform: scale(1.1);
+}
+.model{
+    height: 500px;
+    position:absolute;
+    bottom: 0px;
+    left: 50%;
+    transform:translatex(-50);
+}
+.about-container {
+    width: 80%;
+    height: 330px;
+    background-color:rgb(186, 186, 186)  ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
+    display: flex;
+    margin: -7% auto 20px auto ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.about-container img{
+    height: 250px;
+
+}
+.about-container p:nth-child(1){
+    color: #403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+
+
+
+
+
+
+ 
