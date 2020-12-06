@@ -119,13 +119,13 @@ button:active{
     transform:translatex(-50);
 }
 .about-container {
-    width: 80%;
+    width: 90%;
     height: 330px;
     background-color:rgb(186, 186, 186)  ;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
     display: flex;
-    margin: -7% auto 20px auto ;
+    margin: -6% auto 20px auto ;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -137,8 +137,8 @@ button:active{
 
 }
 .about-text {
-    width: 500px;
-    left: 60vh;
+    width: 300px;
+    left: -88vh;
 }
 .about-container p:nth-child(1){
     color: #ffffff;
@@ -146,7 +146,8 @@ button:active{
     font-weight: 900;
     font-size: 30px;
     line-height: 5px;
-    font-size: 4mm;
+    font-size: 6mm;
+    font-size: bolder;
 }
 .about-container p:nth-child(2){
     color: #3e3d3d;
@@ -205,7 +206,7 @@ button:active{
     margin: 50px 0px;
     
 }
-.box-1 , .box-2, .box-3{
+.box-1 , .box-2,.box-3{
     width: 300px;
     height: 320px;
     background-size:no-repeat;
@@ -346,7 +347,17 @@ footer p:nth-child(2){
 .card3{
     background-image: url(./img-portfolios/lap.jpeg);
 }
-     
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(174, 199, 206);
+  }
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
+   
 
 
 
