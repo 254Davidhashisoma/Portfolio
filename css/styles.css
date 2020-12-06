@@ -327,6 +327,31 @@ footer p:nth-child(2){
     color: #ffffff;
     transition: all ease o.5s;
 }
+.contactBox {
+    min-height: 100vh;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5vw;
+    color: white;
+    background-color: #333;
+}
+
+.contactBox p {
+    margin-top: 10vh;
+    font-size: 1.25rem;
+}
+
+.contactBox .links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactBox #profile-link, .contactBox .logo {
+    text-decoration: none;
+    color:  rgb(0, 9, 128);;
+    border: 1px solid  rgb(0, 9, 128);;
+}
 .card{
     width: 200px;
     height: 230px;
@@ -338,6 +363,7 @@ footer p:nth-child(2){
     background-position: center;
     background-size:cover ;
 }
+
 .card1{
     background-image: url(./img-portfolios/lap.jpeg);
 }
