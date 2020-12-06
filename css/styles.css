@@ -13,7 +13,6 @@ a{
 section{
     width: 100%;
     height: 95vh;
-    background-image:url("../img-portfolios/hashi.jpeg") ;
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
@@ -38,10 +37,11 @@ nav ul li a{
     font-size: 15px;
     font-weight: 700;
 }
-logo{
+.logo{
     font-family :RoadTest;
     color: #000000;
-    font-size: 22px;
+    font-size: 38px;
+    bottom: -8vmax;
 }
 .active{  
     font-family: 'Times New Roman', Times, serif1s;
@@ -76,7 +76,7 @@ logo{
 .text-container{
     position:absolute;
     left: 12%;
-    top: 42%;
+    top: 33%;
     transform:translate(-13%,-42%);
 }
 .text-container button{
@@ -101,11 +101,21 @@ logo{
 button:active{
     transform: scale(1.1);
 }
+.mode{
+     float: right;
+     width: 620px;
+     height: 620px;
+     box-shadow: #c6c5c3;
+     position: relative;
+     bottom: -10vmax;
+     left: -18vmax;
+}
 .model{
-    height: 500px;
-    position:absolute;
+
+    height: 80%;
+    position: absolute;;
     bottom: 0px;
-    left: 50%;
+    right: 68%;
     transform:translatex(-50);
 }
 .about-container {
@@ -119,19 +129,24 @@ button:active{
     position: relative;
     justify-content: center;
     align-items: center;
+    top: -10vmax;
+    
 }
 .about-container img{
-    height: 250px;
+    height: 320px;
+
 }
 .about-text {
-    width: 550px;
+    width: 500px;
+    left: 60vh;
 }
 .about-container p:nth-child(1){
-    color: #403e3e;
+    color: #ffffff;
     font-family: myriad pro;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 0px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 5px;
+    font-size: 4mm;
 }
 .about-container p:nth-child(2){
     color: #3e3d3d;
@@ -194,9 +209,9 @@ button:active{
     width: 300px;
     height: 320px;
     background-size:no-repeat;
-    box-shadow:2px 2px 12px rgba(0,0,0,0.3);
+    box-shadow:4px 4px 16px rgba(0,0,0,0.3);
     display:flex;
-    justify-content:centre;
+    justify-content:center;
     align-content:center;
     flex-direction:column;
 
@@ -206,13 +221,13 @@ button:active{
     justify-content: space-between;
 }
 .box-1{
-    background-image: url("../css/img-portfolios/pexels-photo-220357.jpeg");
+    background-image: url("../css/img-portfolios/pexels-photo-5981929.jpeg");
 }
 .box-2{
-    background-image: url("../css/img-portfolios/pexels-photo-220357.jpeg");
+    background-image: url("../css/img-portfolios/pexels-photo-5981929.jpeg");
 }
 .box-3{
-    background-image: url("../css/img-portfolios/pexels-photo-220357.jpeg");
+    background-image: url("../css/img-portfolios/pexels-photo-5981929.jpeg");
 }
 .box-1 span,
 .box-2 span,
@@ -264,20 +279,22 @@ footer{
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color:rgb(16, 53, 76);
 }
 footer p{
      font-family: calibri;
 
 }
 footer p:nth-child(1){
-    font-weight: bold;
-    columns: #191919;
-    line-height: 10px;
+    font-weight: 700;
+    columns: rgb(144, 166, 170);
+    line-height: 1.6;
 
 }
 footer p:nth-child(2){
     font-size: 16px;
-    color: #7e7d7d;
+    font-family: interstate;
+    color: #ffffff;
     width: 600px;
     text-align: center;
 }
